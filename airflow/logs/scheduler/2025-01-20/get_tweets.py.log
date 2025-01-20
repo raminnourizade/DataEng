@@ -104,3 +104,10 @@
 [2025-01-20T19:34:08.627+0000] {logging_mixin.py:190} INFO - [2025-01-20T19:34:08.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-20T19:34:08.647+0000] {logging_mixin.py:190} INFO - [2025-01-20T19:34:08.646+0000] {dag.py:4180} INFO - Setting next_dagrun for Get-Tweets to 2025-01-20 19:33:00+00:00, run_after=2025-01-20 19:34:00+00:00
 [2025-01-20T19:34:08.658+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_tweets.py took 0.068 seconds
+[2025-01-20T19:34:38.739+0000] {processor.py:186} INFO - Started process (PID=103) to work on /opt/airflow/dags/get_tweets.py
+[2025-01-20T19:34:38.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_tweets.py for tasks to queue
+[2025-01-20T19:34:38.742+0000] {logging_mixin.py:190} INFO - [2025-01-20T19:34:38.742+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_tweets.py
+[2025-01-20T19:34:38.752+0000] {processor.py:925} INFO - DAG(s) 'Get-Tweets' retrieved from /opt/airflow/dags/get_tweets.py
+[2025-01-20T19:34:38.771+0000] {logging_mixin.py:190} INFO - [2025-01-20T19:34:38.771+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-20T19:34:38.790+0000] {logging_mixin.py:190} INFO - [2025-01-20T19:34:38.790+0000] {dag.py:4180} INFO - Setting next_dagrun for Get-Tweets to 2025-01-20 19:33:00+00:00, run_after=2025-01-20 19:34:00+00:00
+[2025-01-20T19:34:38.801+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_tweets.py took 0.066 seconds
